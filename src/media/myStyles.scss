@@ -1,0 +1,149 @@
+* { 
+    margin: 0;
+    padding: 0;
+
+}
+
+#root {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+.navBar-sw {
+    background: rgba( 255, 255, 255, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: none;
+}
+
+a {
+    color: black !important; 
+}
+
+body {
+    background: linear-gradient(119deg, rgba(255,180,71,1) 5%, rgba(200,88,143,1) 98%);
+}
+
+.sold {
+    color: red;
+}
+
+.available { 
+    color: green;
+}
+
+.NavigationBar { 
+    width: 100%;
+}
+
+.ajs-dialog {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ajs-cancel, .ajs-ok {
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgba(0,0,0,0);
+}
+
+.BookCollection {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2vh;    
+    height: 100vh;
+
+    h1 {
+        align-self: center;
+        color: black;
+    }
+    .book-item-cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 3vw;
+        row-gap: 2vh;
+
+                    
+
+        .book-item {
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 5.5px );
+            -webkit-backdrop-filter: blur( 5.5px );
+            border-radius: 10px;
+            
+    
+            button { 
+                background: none;
+                border-color: rgba(0,0,0,0);
+                height: 100%;
+                width: 100%;
+                color: black;
+                display: grid;
+                
+                grid-template-rows: 2fr 1fr 1fr;
+                
+                p {
+                    height: fit-content;
+                }
+    
+            }
+            button:focus {
+                outline: none;
+            }
+        }
+    }
+
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.SellForm{ 
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.disclaimer {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+
+    color: white;
+    margin: 0;
+    text-align: left;
+    padding-top: 1vh;
+}
+
+.sell {
+    height: 100vh;
+}
+
+.home {
+    height: 100vh;
+}
+
+.confirmation-page {
+    height: 100vh;
+    width: 100%;
+
+    h1 {
+        margin-left: 20vw;
+    }
+    p {
+        margin-left: 20vw;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+        border-radius: 10px;
+        width: 55vw; 
+
+    }
+}
