@@ -1,4 +1,4 @@
-const bookListed = "https://talktown.netlify.app/.netlify/functions/bookListed";
-const soldEmail = "https://talktown.netlify.app/.netlify/functions/soldEmail";
+const bookListed = "#REPLACE";
+const soldEmail = "#REPLACE";
 
 export {bookListed, soldEmail};
